@@ -19,10 +19,10 @@ function welcomeMsg() {
   const welcomeMsgEl = document.querySelector("#welcomeMsg");
   let array = 0;
 
-  const wyvorz = `<a href="https://www.wyvorz.com/search/label/Script" target="_blank">wyvorz</a>`;
+  const scriptmlbb = `<a href="https://www.scriptmlbb.com/search/label/Script" target="_blank">Script MLBB</a>`;
 
   let arrayEl = [
-    `<p class="animation mb-0 text-truncate">Download Script Skin ${wyvorz}</p>`,
+    `<p class="animation mb-0 text-truncate">Download Script Skin ${scriptmlbb}</p>`,
   ];
   setInterval(() => {
     welcomeMsgEl.innerHTML = arrayEl[array];
