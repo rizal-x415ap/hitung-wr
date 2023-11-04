@@ -24,13 +24,13 @@ function validation() {
         text = `Field tidak boleh lebih kecil dari 0`;
         display(text);
     } else if (totalNum < 0) {
-        text = `Minimal anda harus losestreak <b>${minLoseNum}</b> kali`;
+        text = `Minimal kamu harus losestreak <b>${minLoseNum}</b> kali`;
         display(text);
     } else if (tWr > 100) {
         text = `WR tidak boleh lebih dari 100%`;
         display(text);
     } else {
-        text = `Jika anda losestreak sebanyak <b>${lsReq}</b> kali, maka winrate anda menjadi <b>${totalNum}%</b>`;
+        text = `Jika kamu losestreak sebanyak <b>${lsReq}</b> kali, maka winrate kamu menjadi <b>${totalNum}%</b>`;
         display(text);
     }
 }
